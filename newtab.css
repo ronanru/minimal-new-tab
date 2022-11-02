@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  margin-inline: auto;
+  width: min(90vw, 900px);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding: 2rem;
+  background: #1e1e1e;
+  display: grid;
+  min-height: 100vh;
+  box-sizing: border-box;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+  outline-offset: 1rem;
+  width: 100%;
+}
+a:focus-visible {
+  outline: 2px solid #62a0ea;
+  transition: outline-offset 0.5s;
+  outline-offset: 0.5rem;
+}
+img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 25%;
+}
+p {
+  margin-inline: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: fit-content;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
