@@ -1,6 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Top Sites NewTab",
+  "name": "Minimal New Tab",
+  "description": "This extension displays 12 of the most visited sites on your new tab page and nothing more.",
+  "author": "Matvey Ryabchikov",
   "version": "1.0.0",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
